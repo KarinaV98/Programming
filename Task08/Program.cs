@@ -8,7 +8,7 @@ int number = Convert.ToInt32(Console.ReadLine());
 int count = Convert.ToInt32(Console.ReadLine());
 while (count<=number)
 
-    if (count%2 ==0)
+    if (count%2 == 0)
     {
     Console.WriteLine(count+ " ");
     count++;
