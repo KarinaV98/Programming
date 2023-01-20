@@ -16,5 +16,5 @@ while (count<=number)
     count++;
 
 }
-  
+
    
