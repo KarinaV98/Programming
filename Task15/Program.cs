@@ -6,7 +6,7 @@
 // 1 -> нет
 
 Console.WriteLine("Введите число, обозначающее день недели");
-int number = Convert.ToInt32(Console.ReadLine ());
+int number = Convert.ToInt32(Console.ReadLine());
 
 
 

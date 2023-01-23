@@ -15,9 +15,9 @@ int number2 = Convert.ToInt32(Console.ReadLine());
 
 bool isSquare = IsSquare(number1, number2);
 
-Console.WriteLine(isSquare?"ДА":"НЕТ");
+Console.WriteLine(isSquare ? "ДА" : "НЕТ");
 
-bool IsSquare(int num1, int num2) 
+bool IsSquare(int num1, int num2)
 {
-    return num1  == num2 * num2 || num2 == num1 * num1;
+    return num1 == num2 * num2 || num2 == num1 * num1;
 }

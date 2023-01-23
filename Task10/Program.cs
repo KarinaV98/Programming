@@ -7,11 +7,11 @@
 
 // Console.WriteLine("Введите трехзначное число ");
 // int number = Convert.ToInt32(Console.ReadLine());
- 
+
 // int res = ShowSecond(number);
 
 // Console.WriteLine($"результат -> {res}");
- 
+
 // int ShowSecond(int num);
 // { 
 //     int num = 
@@ -24,17 +24,17 @@ int number = Convert.ToInt32(Console.ReadLine());
 int lengh = number.ToString().Length;
 
 if (lengh < 3 || lengh > 3)
-Console.WriteLine("Это не трехзначное число! ");
+    Console.WriteLine("Это не трехзначное число! ");
 else
-Console.WriteLine("Вторая цифра - это ");
+    Console.WriteLine("Вторая цифра - это ");
 
 
 int res = SecondDigit(number);
 
- Console.WriteLine($"результат -> {res}");
- 
+Console.WriteLine($"результат -> {res}");
+
 int SecondDigit(int num)
-{ 
+{
     int result = ((num / 10) % 10);
     return result;
 }
