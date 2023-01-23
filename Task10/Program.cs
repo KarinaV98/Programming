@@ -21,6 +21,13 @@
 
 Console.WriteLine("Введите трехзначное число ");
 int number = Convert.ToInt32(Console.ReadLine());
+int lengh = number.ToString().Length;
+
+if (lengh < 3 || lengh > 3)
+Console.WriteLine("Это не трехзначное число! ");
+else
+Console.WriteLine("Вторая цифра - это ");
+
 
 int res = SecondDigit(number);
 
