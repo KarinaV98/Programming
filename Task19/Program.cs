@@ -9,21 +9,21 @@
 // 23432 -> да
 
 
- Console.WriteLine("Введите число: ");
+Console.WriteLine("Введите число: ");
 
- string number = Console.ReadLine();
- int length = number.ToString().Length;
+string number = Console.ReadLine();
+int length = number.ToString().Length;
 
 
- if (length == 5)
- {
-    if (number [0] == number [4] && number [1] == number [3])
+if (length == 5)
+{
+    if (number[0] == number[4] && number[1] == number[3])
     {
-     Console.WriteLine($"{number} - Палиндром");
+        Console.WriteLine($"{number} - Палиндром");
     }
     else
     {
-      Console.WriteLine($"{number} - Не палиндром");
+        Console.WriteLine($"{number} - Не палиндром");
     }
 
 }
